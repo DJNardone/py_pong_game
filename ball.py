@@ -24,6 +24,7 @@ class Ball(Turtle):
     def bounce_x(self):
         self.change_x *= -1
         self.sleep_rate *= 0.9
+
     def goal(self):
         self.home()
         self.sleep_rate = 0.1

@@ -46,6 +46,4 @@ while game_in_play:
         ball.goal()
         scoreboard.r_point()
 
-
-
 screen.exitonclick()
